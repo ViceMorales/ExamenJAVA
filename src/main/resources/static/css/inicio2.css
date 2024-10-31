@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.contenedor-peliculas{
+	display: flex;
+	gap: 1px;
+}
+
+.tarjeta-pelicula{
+	display: flex;
+	flex-direction: column;
+	gap: 40px;
+	padding: 15px;
+	width: 700px;
+	justify-content: center;
+
+}
+
+.pelicula-imagen{
+	width: 100px;
+	display: flex;
+	justify-content: center;
+}
+
+p{
+	color: rgb(192, 192, 192);
+	margin:  5px;
+}
+b{
+	margin: 5px;
+}
+
+h1{
+	font-size: 100px;
+}
+
+.table-sm{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container-sm{
+	width: 700px;
+	position: relative;
+	right: 320px;
+	padding-top: 40px;
+  	padding-bottom: 40px;
+  	margin-top: 30px;
+}
+.plus{
+    background-color: rgb(86, 24, 54);
+}
+.botonPerfil{
+	position: relative;
+	left: 1400px;
+	bottom: 280px;
+	padding: 15px 45px 15px 45px;
+}
+.desc{
+  padding: 0px 0px 100px 0px;
+}
+
+.agrega{
+	padding: 10px 100px 10px 100px;
+	margin-left: 40px;
+	margin-top: 10px;
+	
+}
+.contenedorAgrega{
+	padding: 20px;
+}
